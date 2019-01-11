@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Heather Flanagan - Product &amp; Web Developer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+  body {
+    background-color: #222222;
+    color:            white;
+  }
+
+  a {
+    color:            white;
+    text-decoration:  underline;
+  }
+
+  footer {
+    font-size:        12pt;
+    color:            #999999;
+    text-align:       right;
+    padding:          1em 0;
+    padding-top:      3em;
+  }
+
+  .x-sidebar {
+    background-color: #111111;
+    color:            white;
+    padding:          1em;
+  }
+
+  .x-sidebar h1 {
+
+  }
+
+  .x-content {
+    background-color: white;
+    color:            #222222;
+    padding:          1em;
+    font-family:      serif;
+  }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="d-flex align-items-stretch">
+      <div class="align-self-stretch x-sidebar col-3">
+        <h1>Heather Flanagan</h1>
+
+        <img class="img-thumbnail mt-2 mb-4" src="https://avatars1.githubusercontent.com/u/2328325?s=460&v=4" width="100%">
+
+        <p>
+          A project manager and technology professional with a passion for education, usability, and
+          community engagement.
+        </p>
+
+        <p>
+          "It's cool and good."
+        </p>
+
+        <ul class="list-unstyled ml-4">
+          <li><a href="https://github.com/haflanagan/" target="_blank">GitHub</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </div>
+      <div class="align-self-stretch x-content col-9">
+        {{ content }}
+      </div>
+    </div>
+
+    <footer>
+      &copy; {{ site.time | date: '%Y' }} Heather Flanagan. All rights reserved.
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
